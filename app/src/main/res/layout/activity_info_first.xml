@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstInfoActivity">
+
+    <ImageView
+        android:id="@+id/imgFirst"
+        android:layout_width="414dp"
+        android:layout_height="501dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/first_screen" />
+
+    <TextView
+        android:id="@+id/tvTitleFirst"
+        android:layout_width="210dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/pt_serif_bold"
+        android:text="@string/title_first_screen"
+        android:textColor="#3845AB"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgFirst" />
+
+    <ImageView
+        android:id="@+id/lineFirst"
+        android:layout_width="82dp"
+        android:layout_height="3dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="150dp"
+        app:layout_constraintEnd_toEndOf="@+id/tvTitleFirst"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tvTitleFirst"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitleFirst"
+        app:srcCompat="@drawable/line" />
+
+    <TextView
+        android:id="@+id/tvDesFirst"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="60dp"
+        android:fontFamily="@font/noto_sans"
+        android:text="@string/description_first_screen"
+        android:textColor="#1F1F39"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/lineFirst"
+        app:layout_constraintTop_toBottomOf="@+id/lineFirst" />
+
+    <ImageView
+        android:id="@+id/imgNavFirst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvDesFirst"
+        app:srcCompat="@drawable/navigation_first" />
+
+    <Button
+        android:id="@+id/btNextFirst"
+        android:layout_width="132dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#3845AB"
+        android:fontFamily="@font/noto_sans"
+        android:text="@string/next"
+        android:textSize="14sp"
+        app:cornerRadius="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgNavFirst" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

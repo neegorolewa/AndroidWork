@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondInfoActivity">
+
+    <Button
+        android:id="@+id/btBackSecond"
+        android:layout_width="132dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="48dp"
+        android:backgroundTint="#F9F9FB"
+        android:fontFamily="@font/noto_sans"
+        android:text="@string/back"
+        android:textColor="#78789D"
+        android:textSize="14sp"
+        app:cornerRadius="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgNavSecond"
+        app:layout_constraintVertical_bias="0.526" />
+
+    <ImageView
+        android:id="@+id/imgSecond"
+        android:layout_width="414dp"
+        android:layout_height="501dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/second_screen" />
+
+    <TextView
+        android:id="@+id/tvTitleSecond"
+        android:layout_width="210dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/pt_serif_bold"
+        android:text="@string/title_second_screen"
+        android:textColor="#3845AB"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgSecond" />
+
+    <ImageView
+        android:id="@+id/lineSecond"
+        android:layout_width="82dp"
+        android:layout_height="3dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="150dp"
+        app:layout_constraintEnd_toEndOf="@+id/tvTitleSecond"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tvTitleSecond"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitleSecond"
+        app:srcCompat="@drawable/line" />
+
+    <TextView
+        android:id="@+id/tvDesSecond"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="60dp"
+        android:fontFamily="@font/noto_sans"
+        android:text="@string/description_first_screen"
+        android:textColor="#1F1F39"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/lineSecond"
+        app:layout_constraintTop_toBottomOf="@+id/lineSecond" />
+
+    <ImageView
+        android:id="@+id/imgNavSecond"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvDesSecond"
+        app:srcCompat="@drawable/navigation_second" />
+
+    <Button
+        android:id="@+id/btNextSecond"
+        android:layout_width="132dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="47dp"
+        android:backgroundTint="#3845AB"
+        android:fontFamily="@font/noto_sans"
+        android:text="@string/next"
+        android:textSize="14sp"
+        app:cornerRadius="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgNavSecond" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

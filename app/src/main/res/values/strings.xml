@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">PracticeProjekt</string>
+    <string name="splash_screen_text">RENTEE</string>
+    <string name="logo">Logo</string>
+    <string name="form_name">Your full name</string>
+    <string name="form_name_hint">E.g. John Smith</string>
+    <string name="form_phone">Phone number</string>
+    <string name="form_phone_hint">Your phone number here</string>
+    <string name="form_password">Password</string>
+    <string name="form_password_hint">Enter your password</string>
+    <string name="form_password_retype">Retype your password</string>
+    <string name="form_password_retype_hint">Retype your password</string>
+    <string name="button_sign_up">Sign up</string>
+    <string name="description_sign_up">Already have an account?</string>
+    <string name="description_sign_up_link">Sign in</string>
+    <string name="title_first_screen">Choose from a thousand of places</string>
+    <string name="title_second_screen">Well-selected accommodation</string>
+    <string name="title_third_screen">Cool and secure service</string>
+    <string name="description_first_screen">We provide you with a variant of accommodation for a better choices</string>
+    <string name="next">Next</string>
+    <string name="back">Back</string>
+</resources>
